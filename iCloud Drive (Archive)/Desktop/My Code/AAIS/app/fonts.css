@@ -1,8 +1,0 @@
-/* Self-hosted Cabrito Flare font */
-@font-face {
-  font-family: "cabrito-flare";
-  src: url("/app/fonts/CabritoFlare-Bold.otf") format("woff2");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}

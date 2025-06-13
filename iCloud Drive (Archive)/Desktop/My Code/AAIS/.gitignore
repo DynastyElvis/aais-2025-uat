@@ -1,7 +1,25 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+# System and IDE files
+.DS_Store
+*.swp
+*.swo
+*.idea
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# iCloud and system files
+Library/
+iCloud Drive (Archive)/
+*.icloud
+
 # dependencies
 /node_modules
+/.pnpm-store
 
 # next.js
 /.next/
@@ -18,6 +36,10 @@ yarn-error.log*
 
 # env files
 .env*
+.env.local
+.env.development
+.env.test
+.env.production
 
 # vercel
 .vercel
@@ -25,3 +47,13 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Testing
+/coverage
+/.nyc_output
+
+# Misc
+*.log
+logs/
+*.seed
+*.pid.lock
